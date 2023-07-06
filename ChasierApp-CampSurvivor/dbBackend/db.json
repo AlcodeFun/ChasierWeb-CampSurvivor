@@ -1,0 +1,832 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "nama": "Sumur"
+    },
+    {
+      "id": 2,
+      "nama": "Coffee"
+    },
+    {
+      "id": 3,
+      "nama": "Warkop"
+    },
+    {
+      "id": 4,
+      "nama": "Signature"
+    },
+    {
+      "id": 5,
+      "nama": "Nasi Goreng"
+    },
+    {
+      "id": 6,
+      "nama": "Cemilan"
+    },
+    {
+      "id": 7,
+      "nama": "Indomie"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "kode": "K-01",
+      "nama": "Avocado",
+      "harga": 20000,
+      "is_ready": true,
+      "gambar": "avocado.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Sumur"
+      }
+    },
+    {
+      "id": 2,
+      "kode": "K-02",
+      "nama": "Banana",
+      "harga": 14000,
+      "is_ready": true,
+      "gambar": "banana.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Sumur"
+      }
+    },
+    {
+      "id": 3,
+      "kode": "K-03",
+      "nama": "Bubble Gum",
+      "harga": 14000,
+      "is_ready": true,
+      "gambar": "bubble-gum.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Sumur"
+      }
+    },
+    {
+      "id": 4,
+      "kode": "K-04",
+      "nama": "Choco Delfi",
+      "harga": 14000,
+      "is_ready": true,
+      "gambar": "choco-delfi.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Sumur"
+      }
+    },
+    {
+      "id": 5,
+      "kode": "K-05",
+      "nama": "Durian",
+      "harga": 14000,
+      "is_ready": true,
+      "gambar": "durian.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Sumur"
+      }
+    },
+    {
+      "id": 6,
+      "kode": "K-06",
+      "nama": "Green Tea",
+      "harga": 14000,
+      "is_ready": true,
+      "gambar": "green-tea.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Sumur"
+      }
+    },
+    {
+      "id": 7,
+      "kode": "K-07",
+      "nama": "Mangga",
+      "harga": 14000,
+      "is_ready": true,
+      "gambar": "mangga.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Sumur"
+      }
+    },
+    {
+      "id": 8,
+      "kode": "K-08",
+      "nama": "Melon",
+      "harga": 14000,
+      "is_ready": true,
+      "gambar": "melon.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Sumur"
+      }
+    },
+    {
+      "id": 9,
+      "kode": "K-09",
+      "nama": "Red Velvet",
+      "harga": 14000,
+      "is_ready": true,
+      "gambar": "red-velvet.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Sumur"
+      }
+    },
+    {
+      "id": 10,
+      "kode": "K-010",
+      "nama": "Strawberry",
+      "harga": 14000,
+      "is_ready": true,
+      "gambar": "strawberry.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Sumur"
+      }
+    },
+    {
+      "id": 11,
+      "kode": "K-011",
+      "nama": "Tiramisu",
+      "harga": 14000,
+      "is_ready": true,
+      "gambar": "tiramisu.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Sumur"
+      }
+    },
+    {
+      "id": 12,
+      "kode": "K-012",
+      "nama": "Coffe Bear",
+      "harga": 20000,
+      "is_ready": true,
+      "gambar": "coffee-bear.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Coffee"
+      }
+    },
+    {
+      "id": 13,
+      "kode": "K-013",
+      "nama": "Japan Iced Coffee",
+      "harga": 5000,
+      "is_ready": true,
+      "gambar": "japan-iced-coffee.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Coffee"
+      }
+    },
+    {
+      "id": 14,
+      "kode": "K-014",
+      "nama": "Kopi Lestari",
+      "harga": 18000,
+      "is_ready": true,
+      "gambar": "kopi-lestari.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Coffee"
+      }
+    },
+    {
+      "id": 15,
+      "kode": "K-015",
+      "nama": "Kopi Susu Tubruk",
+      "harga": 14000,
+      "is_ready": true,
+      "gambar": "kopi-susu-tubruk.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Coffee"
+      }
+    },
+    {
+      "id": 16,
+      "kode": "K-016",
+      "nama": "Mazagran",
+      "harga": 25000,
+      "is_ready": true,
+      "gambar": "mazagran.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Coffee"
+      }
+    },
+    {
+      "id": 17,
+      "kode": "K-017",
+      "nama": "Tubruk Arabica",
+      "harga": 16000,
+      "is_ready": true,
+      "gambar": "kopi-lestari.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Coffee"
+      }
+    },
+    {
+      "id": 18,
+      "kode": "K-018",
+      "nama": "Tubruk Robusta",
+      "harga": 10000,
+      "is_ready": true,
+      "gambar": "tubruk-robusta.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Coffee"
+      }
+    },
+    {
+      "id": 19,
+      "kode": "K-019",
+      "nama": "V60",
+      "harga": 20000,
+      "is_ready": true,
+      "gambar": "v60.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Coffee"
+      }
+    },
+    {
+      "id": 20,
+      "kode": "K-020",
+      "nama": "Vietnam Drip",
+      "harga": 20000,
+      "is_ready": true,
+      "gambar": "vietnam-drip.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Coffee"
+      }
+    },
+    {
+      "id": 21,
+      "kode": "K-021",
+      "nama": "Air Mineral",
+      "harga": 5000,
+      "is_ready": true,
+      "gambar": "air-mineral.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Warkop"
+      }
+    },
+    {
+      "id": 22,
+      "kode": "K-022",
+      "nama": "Cappucino",
+      "harga": 12000,
+      "is_ready": true,
+      "gambar": "cappucino.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Warkop"
+      }
+    },
+    {
+      "id": 23,
+      "kode": "K-023",
+      "nama": "Ekstrajosu",
+      "harga": 12000,
+      "is_ready": true,
+      "gambar": "ekstrajosu.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Warkop"
+      }
+    },
+    {
+      "id": 24,
+      "kode": "K-024",
+      "nama": "Kukubima",
+      "harga": 12000,
+      "is_ready": true,
+      "gambar": "kukubima.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Warkop"
+      }
+    },
+    {
+      "id": 25,
+      "kode": "K-025",
+      "nama": "Lemon Tea",
+      "harga": 12000,
+      "is_ready": true,
+      "gambar": "lemon-tea.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Warkop"
+      }
+    },
+    {
+      "id": 26,
+      "kode": "K-026",
+      "nama": "Milo",
+      "harga": 12000,
+      "is_ready": true,
+      "gambar": "milo.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Warkop"
+      }
+    },
+    {
+      "id": 27,
+      "kode": "K-027",
+      "nama": "Teh Manis",
+      "harga": 8000,
+      "is_ready": true,
+      "gambar": "teh-manis.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Warkop"
+      }
+    },
+    {
+      "id": 28,
+      "kode": "K-028",
+      "nama": "Teh Tarik Susu",
+      "harga": 12000,
+      "is_ready": true,
+      "gambar": "teh-tarik-susu.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Warkop"
+      }
+    },
+    {
+      "id": 29,
+      "kode": "K-029",
+      "nama": "Teh Tawar",
+      "harga": 5000,
+      "is_ready": true,
+      "gambar": "teh-tawar.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Warkop"
+      }
+    },
+    {
+      "id": 30,
+      "kode": "K-30",
+      "nama": "Lychee Tea",
+      "harga": 18000,
+      "is_ready": true,
+      "gambar": "lychee-tea.jpg",
+      "category": {
+        "id": 4,
+        "nama": "Signature"
+      }
+    },
+    {
+      "id": 31,
+      "kode": "K-31",
+      "nama": "Milo Banana",
+      "harga": 20000,
+      "is_ready": true,
+      "gambar": "milo-banana.jpg",
+      "category": {
+        "id": 4,
+        "nama": "Signature"
+      }
+    },
+    {
+      "id": 32,
+      "kode": "K-32",
+      "nama": "Soda Gembira",
+      "harga": 16000,
+      "is_ready": true,
+      "gambar": "soda-gembira.jpg",
+      "category": {
+        "id": 4,
+        "nama": "Signature"
+      }
+    },
+    {
+      "id": 33,
+      "kode": "K-33",
+      "nama": "Yakult Lemonade",
+      "harga": 18000,
+      "is_ready": true,
+      "gambar": "yakult-lemonade.jpg",
+      "category": {
+        "id": 4,
+        "nama": "Signature"
+      }
+    },
+    {
+      "id": 34,
+      "kode": "K-34",
+      "nama": "Yakult Lychee",
+      "harga": 18000,
+      "is_ready": true,
+      "gambar": "yakult-lychee.jpg",
+      "category": {
+        "id": 4,
+        "nama": "Signature"
+      }
+    },
+    {
+      "id": 35,
+      "kode": "K-35",
+      "nama": "Nasi Goreng Kampung",
+      "harga": 22000,
+      "is_ready": true,
+      "gambar": "nasi-goreng-kampung.jpg",
+      "category": {
+        "id": 5,
+        "nama": "Nasi Goreng"
+      }
+    },
+    {
+      "id": 36,
+      "kode": "K-36",
+      "nama": "Nasi Goreng Lumut",
+      "harga": 22000,
+      "is_ready": true,
+      "gambar": "nasi-goreng-lumut.jpg",
+      "category": {
+        "id": 5,
+        "nama": "Nasi Goreng"
+      }
+    },
+    {
+      "id": 37,
+      "kode": "K-37",
+      "nama": "Nasi Goreng Rempah",
+      "harga": 22000,
+      "is_ready": true,
+      "gambar": "nasi-goreng-rempah.jpg",
+      "category": {
+        "id": 5,
+        "nama": "Nasi Goreng"
+      }
+    },
+    {
+      "id": 38,
+      "kode": "K-38",
+      "nama": "Nasi Goreng Rempah",
+      "harga": 22000,
+      "is_ready": true,
+      "gambar": "nasi-goreng-rempah.jpg",
+      "category": {
+        "id": 5,
+        "nama": "Nasi Goreng"
+      }
+    },
+    {
+      "id": 39,
+      "kode": "K-39",
+      "nama": "Kentang Goreng",
+      "harga": 18000,
+      "is_ready": true,
+      "gambar": "kentang-goreng.jpg",
+      "category": {
+        "id": 6,
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": 40,
+      "kode": "K-40",
+      "nama": "Piscok Keju Susu",
+      "harga": 18000,
+      "is_ready": true,
+      "gambar": "pisang-coklat-keju-susu.jpg",
+      "category": {
+        "id": 6,
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": 41,
+      "kode": "K-41",
+      "nama": "Pisang Gula Aren",
+      "harga": 16000,
+      "is_ready": true,
+      "gambar": "pisang-gula-aren.jpg",
+      "category": {
+        "id": 6,
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": 42,
+      "kode": "K-42",
+      "nama": "Rotbak Cokjusu",
+      "harga": 18000,
+      "is_ready": true,
+      "gambar": "rotbak-coklat-keju-susu.jpg",
+      "category": {
+        "id": 6,
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": 43,
+      "kode": "K-43",
+      "nama": "Rotbak Piscok",
+      "harga": 18000,
+      "is_ready": true,
+      "gambar": "rotbak-pisang-coklat.jpg",
+      "category": {
+        "id": 6,
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": 44,
+      "kode": "K-44",
+      "nama": "Rujak Cireng",
+      "harga": 16000,
+      "is_ready": true,
+      "gambar": "rujak-cireng.jpg",
+      "category": {
+        "id": 6,
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": 45,
+      "kode": "K-45",
+      "nama": "Sosis Otak-otak",
+      "harga": 20000,
+      "is_ready": true,
+      "gambar": "sosis-otak-otak.jpg",
+      "category": {
+        "id": 6,
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": 46,
+      "kode": "K-46",
+      "nama": "Internet",
+      "harga": 22000,
+      "is_ready": true,
+      "gambar": "internet.jpg",
+      "category": {
+        "id": 7,
+        "nama": "Indomie"
+      }
+    },
+    {
+      "id": 47,
+      "kode": "K-47",
+      "nama": "Mie Tektok",
+      "harga": 20000,
+      "is_ready": true,
+      "gambar": "mie-tektok.jpg",
+      "category": {
+        "id": 7,
+        "nama": "Indomie"
+      }
+    },
+    {
+      "id": 48,
+      "kode": "K-48",
+      "nama": "Polosan",
+      "harga": 10000,
+      "is_ready": true,
+      "gambar": "polosan.jpg",
+      "category": {
+        "id": 7,
+        "nama": "Indomie"
+      }
+    }
+  ],
+  "keranjangs": [],
+  "pesanans": [
+    {
+      "total_pay": 126000,
+      "menus": [
+        {
+          "jumlah": 8,
+          "total": 112000,
+          "product": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Avocado",
+            "harga": 14000,
+            "is_ready": true,
+            "gambar": "avocado.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Sumur"
+            }
+          },
+          "keterangan": "Pedes bang",
+          "id": 1
+        },
+        {
+          "jumlah": 1,
+          "total": 14000,
+          "product": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "Bubble Gum",
+            "harga": 14000,
+            "is_ready": true,
+            "gambar": "bubble-gum.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Sumur"
+            }
+          },
+          "id": 3
+        }
+      ],
+      "id": 1
+    },
+    {
+      "total_pay": 14000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total": 14000,
+          "product": {
+            "id": 7,
+            "kode": "K-07",
+            "nama": "Mangga",
+            "harga": 14000,
+            "is_ready": true,
+            "gambar": "mangga.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Sumur"
+            }
+          },
+          "id": 1
+        }
+      ],
+      "id": 2
+    },
+    {
+      "total_pay": 60000,
+      "menus": [
+        {
+          "jumlah": 2,
+          "total": 28000,
+          "product": {
+            "id": 4,
+            "kode": "K-04",
+            "nama": "Choco Delfi",
+            "harga": 14000,
+            "is_ready": true,
+            "gambar": "choco-delfi.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Sumur"
+            }
+          },
+          "keterangan": "Less sugar",
+          "id": 1
+        },
+        {
+          "jumlah": 1,
+          "total": 14000,
+          "product": {
+            "id": 6,
+            "kode": "K-06",
+            "nama": "Green Tea",
+            "harga": 14000,
+            "is_ready": true,
+            "gambar": "green-tea.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Sumur"
+            }
+          },
+          "id": 2
+        },
+        {
+          "jumlah": 1,
+          "total": 18000,
+          "product": {
+            "id": 30,
+            "kode": "K-30",
+            "nama": "Lychee Tea",
+            "harga": 18000,
+            "is_ready": true,
+            "gambar": "lychee-tea.jpg",
+            "category": {
+              "id": 4,
+              "nama": "Signature"
+            }
+          },
+          "id": 3
+        }
+      ],
+      "id": 3
+    },
+    {
+      "total_pay": 256000,
+      "menus": [
+        {
+          "jumlah": 11,
+          "total": 220000,
+          "product": {
+            "id": 31,
+            "kode": "K-31",
+            "nama": "Milo Banana",
+            "harga": 20000,
+            "is_ready": true,
+            "gambar": "milo-banana.jpg",
+            "category": {
+              "id": 4,
+              "nama": "Signature"
+            }
+          },
+          "id": 1
+        },
+        {
+          "jumlah": 1,
+          "total": 18000,
+          "product": {
+            "id": 30,
+            "kode": "K-30",
+            "nama": "Lychee Tea",
+            "harga": 18000,
+            "is_ready": true,
+            "gambar": "lychee-tea.jpg",
+            "category": {
+              "id": 4,
+              "nama": "Signature"
+            }
+          },
+          "id": 2
+        },
+        {
+          "jumlah": 1,
+          "total": 18000,
+          "product": {
+            "id": 34,
+            "kode": "K-34",
+            "nama": "Yakult Lychee",
+            "harga": 18000,
+            "is_ready": true,
+            "gambar": "yakult-lychee.jpg",
+            "category": {
+              "id": 4,
+              "nama": "Signature"
+            }
+          },
+          "id": 3
+        }
+      ],
+      "id": 4
+    },
+    {
+      "total_pay": 34000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total": 20000,
+          "product": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Avocado",
+            "harga": 20000,
+            "is_ready": true,
+            "gambar": "avocado.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Sumur"
+            }
+          },
+          "id": 1
+        },
+        {
+          "jumlah": 1,
+          "total": 14000,
+          "product": {
+            "id": 2,
+            "kode": "K-02",
+            "nama": "Banana",
+            "harga": 14000,
+            "is_ready": true,
+            "gambar": "banana.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Sumur"
+            }
+          },
+          "id": 2
+        }
+      ],
+      "id": 5
+    }
+  ]
+}
